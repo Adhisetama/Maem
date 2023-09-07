@@ -4,4 +4,4 @@ Aplikasi desktop yang berfungsi untuk tracking nutrisi dan mengatur menu makan s
 ### Kelompok 4
 - Anggota 1:
 - Anggota 2:
-- Anggota 3: Raffid Aditya Hermawan - 21/482635/TK/53331
+- Anggota 3:
