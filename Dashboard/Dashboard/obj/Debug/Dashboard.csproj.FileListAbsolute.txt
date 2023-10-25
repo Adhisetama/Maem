@@ -1,0 +1,11 @@
+Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\bin\Debug\Dashboard.exe.config
+Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\bin\Debug\Dashboard.exe
+Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\bin\Debug\Dashboard.pdb
+Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.AssemblyReference.cache
+Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.SuggestedBindingRedirects.cache
+Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.Form1.resources
+Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.exe
+Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
