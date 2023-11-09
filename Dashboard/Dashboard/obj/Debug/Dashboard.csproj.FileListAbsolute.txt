@@ -9,3 +9,16 @@ Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.Ge
 Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
 Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.exe
 Z:\per-coolyeah-an\junpro\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\bin\Debug\Dashboard.exe.config
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\bin\Debug\Dashboard.exe
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\bin\Debug\Dashboard.pdb
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.AssemblyReference.cache
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.GenerateResource.cache
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.csproj.CoreCompileInputs.cache
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.exe
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Login.Form1.resources
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\bin\Debug\DatabaseUser.mdf
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\bin\Debug\DatabaseUser_log.ldf
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.Dashboard1.resources

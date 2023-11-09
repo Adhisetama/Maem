@@ -1,0 +1,8 @@
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Maem.csproj.AssemblyReference.cache
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.Dashboard.resources
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Login.Form1.resources
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.Properties.Resources.resources
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Maem.csproj.GenerateResource.cache
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Maem.csproj.CoreCompileInputs.cache
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.exe
+E:\Junpro\MAEM\Maem\Dashboard\Dashboard\obj\Debug\Dashboard.pdb
