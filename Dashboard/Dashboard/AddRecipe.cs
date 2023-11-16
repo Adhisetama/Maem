@@ -12,9 +12,11 @@ namespace Dashboard
 {
     public partial class AddRecipe : Form
     {
+        private FoodRecipe foodRecipe;
         public AddRecipe()
         {
             InitializeComponent();
+            foodRecipe = new FoodRecipe();
         }
 
         private void AddRecipe_Load(object sender, EventArgs e)
@@ -33,8 +35,36 @@ namespace Dashboard
         {
             if (lbAddIngredient.SelectedItem != null && tbAmount.Text.Trim() != string.Empty)
             {
-                tbIngredient.Text += $"- {lbAddIngredient.SelectedItem}\t{tbAmount.Text.Trim()}\n";
+                string[] ingredient = lbAddIngredient.SelectedItem.ToString().Split(';');
+                string description = ingredient[0].Trim();
+                string amount = tbAmount.Text.Trim();
+                int nutritionApiId = int.Parse(ingredient[1].Trim());
+
+                tbIngredient.Text += $"- {description}\t{amount}\n";
+
+                foodRecipe.AddIngredient(new Ingredient(description, amount, nutritionApiId));
             }
+        }
+
+        private bool isRecipeValid()
+        {
+            return
+                (
+                    tbTitle.Text.Trim() != string.Empty &&
+                    tbDescription.Text.Trim() != string.Empty &&
+                    tbInstruction.Text.Trim() != string.Empty &&
+                    foodRecipe.ingredients.Count != 0
+                );
+        }
+
+        private void btnAddRecipe_Click(object sender, EventArgs e)
+        {
+            if (!isRecipeValid()) return;
+            foodRecipe.Title = tbTitle.Text;
+            foodRecipe.Description = tbDescription.Text;
+            foodRecipe.Instruction = tbInstruction.Text;
+
+            foodRecipe.insertRecipeToDatabase(GlobalVariable.connectionString);
         }
     }
 }

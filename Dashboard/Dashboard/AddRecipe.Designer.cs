@@ -44,6 +44,8 @@
             this.btnInsertIngredient = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.tbAmount = new System.Windows.Forms.TextBox();
+            this.btnAddRecipe = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblAddRecipeForUser
@@ -137,7 +139,7 @@
             this.tbIngredient.Multiline = true;
             this.tbIngredient.Name = "tbIngredient";
             this.tbIngredient.ReadOnly = true;
-            this.tbIngredient.Size = new System.Drawing.Size(246, 156);
+            this.tbIngredient.Size = new System.Drawing.Size(246, 127);
             this.tbIngredient.TabIndex = 10;
             // 
             // btnSearchIngredient
@@ -184,11 +186,32 @@
             this.tbAmount.Size = new System.Drawing.Size(178, 20);
             this.tbAmount.TabIndex = 14;
             // 
+            // btnAddRecipe
+            // 
+            this.btnAddRecipe.Location = new System.Drawing.Point(614, 368);
+            this.btnAddRecipe.Name = "btnAddRecipe";
+            this.btnAddRecipe.Size = new System.Drawing.Size(100, 28);
+            this.btnAddRecipe.TabIndex = 16;
+            this.btnAddRecipe.Text = "add recipe";
+            this.btnAddRecipe.UseVisualStyleBackColor = true;
+            this.btnAddRecipe.Click += new System.EventHandler(this.btnAddRecipe_Click);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(508, 368);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(100, 28);
+            this.btnCancel.TabIndex = 17;
+            this.btnCancel.Text = "cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            // 
             // AddRecipe
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(730, 408);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnAddRecipe);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.tbAmount);
             this.Controls.Add(this.btnInsertIngredient);
@@ -231,5 +254,7 @@
         private System.Windows.Forms.Button btnInsertIngredient;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox tbAmount;
+        private System.Windows.Forms.Button btnAddRecipe;
+        private System.Windows.Forms.Button btnCancel;
     }
 }

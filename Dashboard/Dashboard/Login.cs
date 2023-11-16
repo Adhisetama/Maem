@@ -71,6 +71,7 @@ namespace Login
                                     reader["password"].ToString()
                                     );
                                 Dashboard.Dashboard dashboard = new Dashboard.Dashboard(currentUser);
+                                GlobalVariable.currentUser = currentUser;
                                 dashboard.Show();
                                 this.Close();
                             }
